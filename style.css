@@ -1,0 +1,13 @@
+#content {
+	margin: auto;
+}
+
+p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 100px;
+    text-indent: 40px;
+}
