@@ -23,7 +23,7 @@ body {
 
 #header #buttons {
     text-align: center;
-	padding-left: 23%;
+	padding-left: 27%;
 }
 
 #header input {
@@ -78,6 +78,15 @@ body {
 
 #header .button a:hover {
 	color: #e11;
+	/*text-decoration: underline;*/
+
+	background: -webkit-linear-gradient(#6B6B6B, #050505); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#6B6B6B, #050505); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#6B6B6B, #050505); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#6B6B6B, #050505); /* Standard syntax */
+}
+
+#header .button #selected {
 	text-decoration: underline;
 }
 
@@ -104,7 +113,7 @@ body {
 
 #content p {
 	display: block;
-	margin: 0px 0px 5px 0px;
+	margin: 0px 28px 5px 0px;
 	/*margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: 0;
