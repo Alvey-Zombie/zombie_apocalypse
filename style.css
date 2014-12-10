@@ -10,8 +10,75 @@ body {
 #header {
 	margin-bottom: 10px;
 	width: 100%;
-	height: 51px;
-	background-color: #622;
+	/*height: 51px;*/
+	height: auto;
+	/*background-color: #622;*/
+	background-color: #353535;
+
+	background: -webkit-linear-gradient(#555, #000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#555, #000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#555, #000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#555, #000); /* Standard syntax */
+}
+
+#header #buttons {
+    text-align: center;
+	padding-left: 23%;
+}
+
+#header input {
+	padding: 16px 0px 15px 0px;
+	width: 140px;
+	background-color: #444;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 20px;
+	color: #7A1212;
+	float: left;
+	margin: auto;
+
+	background: -webkit-linear-gradient(#666, #000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#666, #000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#666, #000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#666, #000); /* Standard syntax */
+}
+
+#header .button {
+	/*float: left;
+	/*padding: 16px 20px 15px 20px;
+	/*height: 29px;*/
+	/*padding: 16px 0px 15px 0px;
+	width: 120px;
+	background-color: #444;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;*/
+}
+
+#header .button a {
+	text-decoration: none;
+
+	padding: 16px 0px 15px 0px;
+	width: 140px;
+	background-color: #444;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 20px;
+	color: #7A1212;
+	float: left;
+	margin: auto;
+
+	background: -webkit-linear-gradient(#666, #000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#666, #000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#666, #000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#666, #000); /* Standard syntax */
+}
+
+#header .button a:hover {
+	color: #e11;
+	text-decoration: underline;
 }
 
 #content {
@@ -21,6 +88,7 @@ body {
 
 #paragraphs {
 	margin-left: 235px;
+	padding-right: 10px;
 }
 
 #content h2 {
@@ -48,7 +116,8 @@ body {
 
 #table-of-contents {
 	float: left;
-	width: 15%;
+	/*width: 15%;*/
+	width: 211px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #fff;
@@ -73,6 +142,6 @@ body {
 }
 
 #table-of-contents ul {
-	margin: 0px 0px 2px 0px;
+	margin: 0px 0px 2px 12px;
 }
 
